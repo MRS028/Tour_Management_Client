@@ -1,4 +1,4 @@
-import { Button } from "./components/ui/button"
+import { Outlet } from "react-router"
 
 
 function App() {
@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-      <h1>this is a simple shadcn ui app</h1>
-      <Button>Click here</Button>
+      <h1>this is app component</h1>
+     <Outlet />
     </>
   )
 }
